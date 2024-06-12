@@ -1,0 +1,26 @@
+.soldOut {
+    color: grey;
+}
+
+#menu {
+    margin-left: auto;
+    margin-right: auto;
+    border: solid red 16px;
+}
+
+#menuTable {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 32px;
+}
+
+#cart {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 32px;
+}
+
+#total {
+    font-weight: bold;
+}
