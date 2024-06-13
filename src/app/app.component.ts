@@ -96,5 +96,9 @@ export class AppComponent {
   getTotal(): number {
     return this.cart.reduce((total, next) => total + next.price, 0);
   }
+
+  resetOrder(): void {
+    this.cart = [];
+  }
 }
 

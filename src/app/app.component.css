@@ -18,9 +18,12 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    padding-bottom: 32px;
 }
 
 #total {
     font-weight: bold;
+}
+
+#reset {
+    margin-bottom: 32px;
 }
