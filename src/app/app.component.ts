@@ -63,6 +63,13 @@ export class AppComponent {
       soldOut: false
     },
     {
+      name: "Wings",
+      category: "Side",
+      price: 8,
+      vegetarian: false,
+      soldOut: false
+    },
+    {
       name: "Ice Cream",
       category: "Dessert",
       price: 4,
