@@ -14,7 +14,7 @@
       <tr [class.soldOut]="m.soldOut">
         <td>{{m.name}} @if(m.soldOut){(sold out)}</td>
         <td>{{m.category}}</td>
-        <td>{{m.price}}</td>
+        <td>{{m.price | currency}}</td>
         <td>@if(m.vegetarian){vegetarian}</td>
         <td><button type="button" [disabled]="m.soldOut" (click)="addToCart(m)">Add To Order</button></td>
       </tr>
@@ -24,9 +24,9 @@
     @if(cart.length > 0){
       @for(c of cart; track $index)
       {
-      <li>{{c.name}}: ${{c.price}}</li>
+      <li>{{c.name}}: {{c.price | currency}}</li>
       }
-      <li id="total">Total: ${{getTotal()}}</li>
+      <li id="total">Total: {{getTotal() | currency}}</li>
     }
   </ul>
 </div>
