@@ -31,7 +31,7 @@ export class AppComponent {
       name: "Pepperoni Pizza",
       category: "Entree",
       price: 11,
-      vegetarian: true,
+      vegetarian: false,
       soldOut: false
     },
     {
